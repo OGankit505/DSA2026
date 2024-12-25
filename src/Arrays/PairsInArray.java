@@ -18,3 +18,4 @@ public class PairsInArray {
         System.out.println("The total pairs are: "+totalPairs);
     }
 }
+// time complexity = O(n^2), since 2 for loops are there

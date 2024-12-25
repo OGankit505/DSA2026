@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="233063d7-6367-4e17-93b7-88912e42d3dd" name="Changes" comment="Dsa Prep">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="233063d7-6367-4e17-93b7-88912e42d3dd" name="Changes" comment="Dsa Prep" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,11 +18,36 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 4
-}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Arrays/RepeatElements.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "5f1111ff",
+  "associatedIndex": 4
+}]]></component>
   <component name="ProjectId" id="2qa4CMp2523tvJuz8BEXdv5ECfr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -45,45 +65,24 @@
     "Application.DecToBin.executor": "Run",
     "Application.LargestNumber.executor": "Run",
     "Application.LinearSearch.executor": "Run",
+    "Application.MaxSubArraySum.executor": "Run",
     "Application.PairsInArray.executor": "Run",
+    "Application.RepeatElements.executor": "Run",
     "Application.ReverseArray.executor": "Run",
+    "Application.SubArrays.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/Ankit/IdeaProjects/DSA2026/src/Main.java"
+    "onboarding.tips.debug.path": "C:/Users/Ankit/IdeaProjects/DSA2026/src/Main.java",
+    "settings.editor.selected.configurable": "settings.qodana"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PairsInArray">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.BinarySearch" />
-      <module name="DSA2026" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LargestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.LargestNumber" />
-      <module name="DSA2026" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.LinearSearch" />
+  <component name="RunManager" selected="Application.MaxSubArraySum">
+    <configuration name="MaxSubArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.MaxSubArraySum" />
       <module name="DSA2026" />
       <extension name="coverage">
         <pattern>
@@ -108,6 +107,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RepeatElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.RepeatElements" />
+      <module name="DSA2026" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.ReverseArray" />
       <module name="DSA2026" />
@@ -121,13 +133,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SubArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.SubArrays" />
+      <module name="DSA2026" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxSubArraySum" />
+        <item itemvalue="Application.RepeatElements" />
+        <item itemvalue="Application.SubArrays" />
         <item itemvalue="Application.PairsInArray" />
         <item itemvalue="Application.ReverseArray" />
-        <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.LargestNumber" />
-        <item itemvalue="Application.LinearSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -148,8 +173,35 @@
       <option name="project" value="LOCAL" />
       <updated>1735061987367</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Dsa Prep">
+      <option name="closed" value="true" />
+      <created>1735062129588</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1735062129588</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Dsa Prep">
+      <option name="closed" value="true" />
+      <created>1735145369491</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1735145369491</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Dsa Prep" />
