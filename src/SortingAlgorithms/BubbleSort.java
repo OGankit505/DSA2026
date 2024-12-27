@@ -2,7 +2,7 @@ package SortingAlgorithms;
 
 public class BubbleSort {
     public static void main(String[] args) {
-        int[] nums = { 5, 4, 1, 3, 2};
+        int[] nums = {5, 4, 1, 3, 2};
         bubble(nums);
         printBubble(nums);
 
