@@ -26,7 +26,7 @@ public class ShortestPath {
             else{
                 x--;
             }
-        }
-        return (float) Math.sqrt(Math.pow(x,2) + Math.pow(y,2));
+        }                                                        //   __________
+        return (float) Math.sqrt(Math.pow(x,2) + Math.pow(y,2)); // \/ x^2 + y^2 = formula
     }
 }
