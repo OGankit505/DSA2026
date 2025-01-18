@@ -6,7 +6,6 @@ public class Factorial {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         System.out.println("The factorial of "+n+" is: "+numFactorial(n));
-
     }
 
     static int numFactorial(int n){
