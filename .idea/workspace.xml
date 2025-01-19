@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="233063d7-6367-4e17-93b7-88912e42d3dd" name="Changes" comment="Dsa Prep" />
+    <list default="true" id="233063d7-6367-4e17-93b7-88912e42d3dd" name="Changes" comment="Dsa Prep">
+      <change afterPath="$PROJECT_DIR$/src/Recursion/PowerN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/CountPrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -38,16 +43,33 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;OGankit505&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="0ecc1b3d-179b-4fc6-be55-dd6699cec2c1" />
+        <option name="url" value="https://github.com/OGankit505/DSA2026.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/Arrays/RepeatElements.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "5f1111ff",
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;5f1111ff&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2qa4CMp2523tvJuz8BEXdv5ECfr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -58,18 +80,48 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BestSightseeingPair.executor": "Run",
     "Application.BinToDec.executor": "Run",
     "Application.BinarySearch.executor": "Run",
+    "Application.BubbleSort.executor": "Run",
+    "Application.BuyAndSellStocks.executor": "Run",
     "Application.CheckPrime.executor": "Run",
+    "Application.CheckSort.executor": "Run",
     "Application.Combination.executor": "Run",
+    "Application.CountElement.executor": "Run",
+    "Application.CountPrefix.executor": "Run",
+    "Application.DecOrder.executor": "Run",
     "Application.DecToBin.executor": "Run",
+    "Application.DiagonalSum.executor": "Run",
+    "Application.Factorial.executor": "Run",
+    "Application.Fibonacci.executor": "Run",
+    "Application.FirstOccurrence.executor": "Run",
+    "Application.In_BuiltSort.executor": "Run",
+    "Application.IncOrder.executor": "Run",
+    "Application.InsertionSort.executor": "Run",
     "Application.LargestNumber.executor": "Run",
+    "Application.LastOccurrence.executor": "Run",
     "Application.LinearSearch.executor": "Run",
+    "Application.Matrices.executor": "Run",
     "Application.MaxSubArraySum.executor": "Run",
+    "Application.MergeSortedArray.executor": "Run",
+    "Application.NaturalSum.executor": "Run",
     "Application.PairsInArray.executor": "Run",
+    "Application.Palindrome.executor": "Run",
+    "Application.PowerN.executor": "Run",
     "Application.RepeatElements.executor": "Run",
     "Application.ReverseArray.executor": "Run",
+    "Application.SearchIn2DArray.executor": "Run",
+    "Application.SearchInRotatedArray.executor": "Run",
+    "Application.SelectionSort.executor": "Debug",
+    "Application.ShortestPath.executor": "Run",
+    "Application.SortedMatrixSearch.executor": "Run",
+    "Application.SpiralMatrix.executor": "Run",
     "Application.SubArrays.executor": "Run",
+    "Application.SumOfElements.executor": "Run",
+    "Application.Transpose.executor": "Run",
+    "Application.TrappingRainwater.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -80,13 +132,13 @@
     "settings.editor.selected.configurable": "settings.qodana"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MaxSubArraySum">
-    <configuration name="MaxSubArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.MaxSubArraySum" />
+  <component name="RunManager" selected="Application.PowerN">
+    <configuration name="CheckSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.CheckSort" />
       <module name="DSA2026" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PairsInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.PairsInArray" />
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.Fibonacci" />
       <module name="DSA2026" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepeatElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.RepeatElements" />
+    <configuration name="FirstOccurrence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.FirstOccurrence" />
       <module name="DSA2026" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +172,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.ReverseArray" />
+    <configuration name="LastOccurrence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.LastOccurrence" />
       <module name="DSA2026" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +185,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.SubArrays" />
+    <configuration name="PowerN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.PowerN" />
       <module name="DSA2026" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MaxSubArraySum" />
-        <item itemvalue="Application.RepeatElements" />
-        <item itemvalue="Application.SubArrays" />
-        <item itemvalue="Application.PairsInArray" />
-        <item itemvalue="Application.ReverseArray" />
+        <item itemvalue="Application.PowerN" />
+        <item itemvalue="Application.LastOccurrence" />
+        <item itemvalue="Application.FirstOccurrence" />
+        <item itemvalue="Application.CheckSort" />
+        <item itemvalue="Application.Fibonacci" />
       </list>
     </recent_temporary>
   </component>
@@ -189,15 +241,306 @@
       <option name="project" value="LOCAL" />
       <updated>1735145369491</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Dsa Prep">
+      <option name="closed" value="true" />
+      <created>1735145798573</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1735145798573</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Dsa Prep">
+      <option name="closed" value="true" />
+      <created>1735146344873</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1735146344874</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Dsa Prep">
+      <option name="closed" value="true" />
+      <created>1735148974269</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1735148974269</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Dsa Prep">
+      <option name="closed" value="true" />
+      <created>1735229990380</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1735229990380</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Dsa Prep">
+      <option name="closed" value="true" />
+      <created>1735233639489</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1735233639489</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Dsa Prep">
+      <option name="closed" value="true" />
+      <created>1735235647654</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1735235647654</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Dsa Prep">
+      <option name="closed" value="true" />
+      <created>1735293970751</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1735293970751</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Dsa Prep">
+      <option name="closed" value="true" />
+      <created>1735317750530</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1735317750530</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Dsa Prep">
+      <option name="closed" value="true" />
+      <created>1735320544240</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1735320544240</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Dsa Prep">
+      <option name="closed" value="true" />
+      <created>1735377194252</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1735377194252</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Dsa Prep">
+      <option name="closed" value="true" />
+      <created>1735467497762</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1735467497763</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Dsa Prep">
+      <option name="closed" value="true" />
+      <created>1735468323172</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1735468323172</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Dsa Prep">
+      <option name="closed" value="true" />
+      <created>1735552576400</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1735552576400</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Dsa Prep">
+      <option name="closed" value="true" />
+      <created>1735580147574</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1735580147574</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Dsa Prep">
+      <option name="closed" value="true" />
+      <created>1735652392772</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1735652392772</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Dsa Prep">
+      <option name="closed" value="true" />
+      <created>1735997967541</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1735997967541</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Dsa Prep">
+      <option name="closed" value="true" />
+      <created>1736083361746</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1736083361746</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Dsa Prep">
+      <option name="closed" value="true" />
+      <created>1736180080154</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1736180080154</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Dsa Prep">
+      <option name="closed" value="true" />
+      <created>1736182104560</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1736182104560</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Dsa Prep">
+      <option name="closed" value="true" />
+      <created>1736182252509</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1736182252509</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Dsa Prep">
+      <option name="closed" value="true" />
+      <created>1736272629607</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1736272629607</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Dsa Prep">
+      <option name="closed" value="true" />
+      <created>1737031376432</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1737031376432</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Dsa Prep">
+      <option name="closed" value="true" />
+      <created>1737219183943</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1737219183943</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Dsa Prep">
+      <option name="closed" value="true" />
+      <created>1737219469995</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1737219469995</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Dsa Prep">
+      <option name="closed" value="true" />
+      <created>1737219493524</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1737219493524</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Dsa Prep">
+      <option name="closed" value="true" />
+      <created>1737219896870</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1737219896870</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Dsa Prep">
+      <option name="closed" value="true" />
+      <created>1737220378070</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1737220378070</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Dsa Prep">
+      <option name="closed" value="true" />
+      <created>1737220939693</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1737220939693</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Dsa Prep">
+      <option name="closed" value="true" />
+      <created>1737221323517</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1737221323517</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Dsa Prep">
+      <option name="closed" value="true" />
+      <created>1737263628600</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1737263628600</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Dsa Prep">
+      <option name="closed" value="true" />
+      <created>1737263654870</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1737263654870</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Dsa Prep">
+      <option name="closed" value="true" />
+      <created>1737265492782</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1737265492782</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Dsa Prep">
+      <option name="closed" value="true" />
+      <created>1737266313993</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1737266313993</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
