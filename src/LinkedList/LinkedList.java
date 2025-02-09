@@ -44,11 +44,26 @@ public class LinkedList {
         tail = newNode;
     }
 
+    //for printing the elements of Linked List
+    public void print(){
+        Node temp = head;
+        while(temp!=null){
+            System.out.print(temp.data+"->");
+            temp=temp.next;
+        }
+        System.out.println("null");
+    }
+
     public static void main(String[] args) {
         LinkedList l = new LinkedList();
+        l.print();
         l.addFirst(2);
+        l.print();
         l.addFirst(1);
+        l.print();
         l.addLast(3);
+        l.print();
         l.addLast(4);
+        l.print();
     }
 }
