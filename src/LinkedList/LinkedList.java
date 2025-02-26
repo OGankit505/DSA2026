@@ -54,16 +54,26 @@ public class LinkedList {
         System.out.println("null");
     }
 
+    //for adding elements in the middle of the linked list
+    public void addMid(int index, int data){
+        Node newNode = new Node(data);
+        Node temp =  head;
+        int i = 0;
+        while(i < index-1){
+            temp = temp.next;
+            i++;
+        }
+        newNode.next =  temp.next;
+        temp.next = newNode;
+    }
+
     public static void main(String[] args) {
         LinkedList l = new LinkedList();
-        l.print();
         l.addFirst(2);
-        l.print();
         l.addFirst(1);
-        l.print();
         l.addLast(3);
-        l.print();
         l.addLast(4);
+        l.addMid(3,7);
         l.print();
     }
 }
