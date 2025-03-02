@@ -13,13 +13,13 @@ public class SortedMatrixSearch {
         staircaseSearch(matrix, key);
     }
 
-    static boolean staircaseSearch(int[][] matrix, int key){
+    static void staircaseSearch(int[][] matrix, int key){
         int row = 0, col = matrix[0].length-1;
 
         while(row < matrix.length && col >=0){
             if(matrix[row][col] == key){
                 System.out.println("key found at ("+row+","+col+")");
-                return true;
+                return;
             }
             else if (key < matrix[row][col]) {
                 col--;
@@ -29,6 +29,5 @@ public class SortedMatrixSearch {
             }
         }
         System.out.println("key not found");
-        return false;
     }
 }
