@@ -2,7 +2,6 @@ public class MaxCount_2529 {
     public static void main(String[] args) {
         int[] nums = {-2, -1, -1, 1, 2, 3};
         System.out.println(maximumCount(nums));
-
     }
 
     static int maximumCount(int[] nums){
@@ -11,10 +10,7 @@ public class MaxCount_2529 {
         for (int num1 : nums) {
             if (num1 > 0) {
                 count1++;
-            }
-        }
-        for (int num2 : nums) {
-            if (num2 < 0) {
+            } else if (num1 < 0) {
                 count2++;
             }
         }
