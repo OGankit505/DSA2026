@@ -3,8 +3,8 @@ public class MinTime_2594 {
         int[] ranks = {4, 2, 3, 1};
         int cars = 10;
         System.out.println(repairCars(ranks, cars));
-
     }
+
     static boolean isPossible(int[] ranks, long mid, int cars){
         long carsFixed = 0;
         for (int rank : ranks) {
@@ -12,6 +12,7 @@ public class MinTime_2594 {
         }
         return carsFixed >= cars;
     }
+
     static long repairCars(int[] ranks, int cars){
         long l = 1;
         int maxR = Math.max(ranks[0], ranks[ranks.length-1]);
@@ -30,6 +31,5 @@ public class MinTime_2594 {
             }
         }
         return result;
-
     }
 }
