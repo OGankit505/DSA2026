@@ -1,3 +1,5 @@
+package Leetcode_Questions;
+
 public class MinTime_2594 {
     public static void main(String[] args) {
         int[] ranks = {4, 2, 3, 1};

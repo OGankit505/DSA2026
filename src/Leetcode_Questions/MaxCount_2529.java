@@ -1,3 +1,5 @@
+package Leetcode_Questions;
+
 public class MaxCount_2529 {
     public static void main(String[] args) {
         int[] nums = {-2, -1, -1, 1, 2, 3};

@@ -1,3 +1,5 @@
+package Leetcode_Questions;
+
 import java.util.*;
 // problem of the day
 

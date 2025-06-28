@@ -1,3 +1,5 @@
+package Leetcode_Questions;
+
 import java.util.Arrays;
 
 public class EqualPairs_2206 {
